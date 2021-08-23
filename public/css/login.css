@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+body {
+  background-color: #0278ae;
+  font-family: "Lato", sans-serif;
+  overflow: hidden;
+}
+
+.alert {
+  margin-bottom: -10px;
+}
+
+.login-content {
+  max-width: 450px;
+  width: 100%;
+  z-index: 1;
+  margin: 50px auto 0;
+}
+
+.logo {
+  width: 128px;
+  height: 128px;
+  margin: 0 5px 5px;
+}
+
+.text-logo {
+  text-align: center;
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.form-control {
+  width: 18rem;
+  height: 3rem;
+  left: 65px;
+  margin-top: 2px;
+  position: relative;
+  border-radius: 5px;
+  background-color: #ccffee;
+}
+
+.btn {
+  font-size: 17px;
+  background-color: #0278ae;
+  border: none;
+  width: 18rem;
+  padding: 10px 0;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.btn:hover {
+  background-color: #085579;
+}
+
+.nomember {
+  background-color: #e4dede;
+  padding: 10px;
+  padding-top: 20px;
+  border-radius: 0px 0px 5px 5px;
+}
+
+.nomember a {
+  text-decoration: none;
+}
+
+.forgot {
+  position: relative;
+  right: -18%;
+}
+
+.forgot a {
+  text-decoration: none;
+  font-size: 15px;
+  color: rgb(158, 163, 240);
+}
+
+.copyright {
+  color: white;
+  padding: 15px;
+}
+
+/*support google chrome*/
+.form-control::-webkit-input-placeholder {
+  color: #00000036;
+}
+
+/*support mozilla*/
+.form-control:-moz-input-placeholder {
+  color: red;
+}
+
+/*support internet explorer*/
+.form-control:-ms-input-placeholder {
+  color: red;
+}
