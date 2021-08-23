@@ -1,63 +1,36 @@
-# CodeIgniter 4 Application Starter
+# APLIKASI MANAJEMEN ANGGOTA
 
-## What is CodeIgniter?
+Assalamualaikum Wr. Wb
+Halo semuanya nama saya Fadhlurrahman
+Saya membuat aplikasi manajemen anggota berbasis web dengan teknologi codeigniter 4
 
-CodeIgniter is a PHP full-stack web framework that is light, fast, flexible and secure.
-More information can be found at the [official site](http://codeigniter.com).
+berikut cara instalasinya
 
-This repository holds a composer-installable app starter.
-It has been built from the
-[development repository](https://github.com/codeigniter4/CodeIgniter4).
+## 1. DOWNLOAD ZIP
+silahkan ke code kemudian download zip kemudian buat folder anggota-master di htdocs kesayangan anda :) kemudian ekstrak.
+ 
+## 1. UPLOAD KE DATABASE
+jalankan xampp anda kemudian pergi ke localhost/phpmyadmin kemudian silahkan buat database baru dengan nama anggota_master kemudian import database di folder yg ditaruh di htdocs
+dengan nama file : anggota_master.sql
 
-More information about the plans for version 4 can be found in [the announcement](http://forum.codeigniter.com/thread-62615.html) on the forums.
+## 2. KONFIGURASI
+silahkan buka folder tersebut di code editor kesayangan kalian kemudian pergi ke folder .env 
+kemudian atur
 
-The user guide corresponding to this version of the framework can be found
-[here](https://codeigniter4.github.io/userguide/).
+<!-- JIKALAU DI XAMPP -->
 
-## Installation & updates
+database.default.hostname = localhost
+database.default.database = anggota_master
+database.default.username = root
+database.default.password = 
 
-`composer create-project codeigniter4/appstarter` then `composer update` whenever
-there is a new release of the framework.
+<!-- JIKALAU DI MAMPP -->
+database.default.hostname = localhost
+database.default.database = anggota_master
+database.default.username = root
+database.default.password = root
 
-When updating, check the release notes to see if there are any changes you might need to apply
-to your `app` folder. The affected files can be copied or merged from
-`vendor/codeigniter4/framework/app`.
+jikalau anda sudah mengubah username atau passwordny silahkan disesuaikan, Terimakasih :)
+jangan lupa di star hehe.
 
-## Setup
-
-Copy `env` to `.env` and tailor for your app, specifically the baseURL
-and any database settings.
-
-## Important Change with index.php
-
-`index.php` is no longer in the root of the project! It has been moved inside the *public* folder,
-for better security and separation of components.
-
-This means that you should configure your web server to "point" to your project's *public* folder, and
-not to the project root. A better practice would be to configure a virtual host to point there. A poor practice would be to point your web server to the project root and expect to enter *public/...*, as the rest of your logic and the
-framework are exposed.
-
-**Please** read the user guide for a better explanation of how CI4 works!
-
-## Repository Management
-
-We use Github issues, in our main repository, to track **BUGS** and to track approved **DEVELOPMENT** work packages.
-We use our [forum](http://forum.codeigniter.com) to provide SUPPORT and to discuss
-FEATURE REQUESTS.
-
-This repository is a "distribution" one, built by our release preparation script.
-Problems with it can be raised on our forum, or as issues in the main repository.
-
-## Server Requirements
-
-PHP version 7.3 or higher is required, with the following extensions installed:
-
-- [intl](http://php.net/manual/en/intl.requirements.php)
-- [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
-
-Additionally, make sure that the following extensions are enabled in your PHP:
-
-- json (enabled by default - don't turn it off)
-- [mbstring](http://php.net/manual/en/mbstring.installation.php)
-- [mysqlnd](http://php.net/manual/en/mysqlnd.install.php)
-- xml (enabled by default - don't turn it off)
+Semoga Bermanfaat, Dan Happy Coding!
