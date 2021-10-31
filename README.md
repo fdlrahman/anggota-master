@@ -7,7 +7,7 @@ Saya membuat aplikasi manajemen anggota berbasis web dengan teknologi codeignite
 berikut cara instalasinya
 
 ### 1. DOWNLOAD ZIP
-silahkan ke code kemudian download zip kemudian buat folder anggota-master di htdocs kesayangan anda :) kemudian ekstrak.
+silahkan ke code kemudian download zip kemudian buat folder anggota-master di htdocs kemudian ekstrak.
  
 ### 2. UPLOAD KE DATABASE
 jalankan xampp anda kemudian pergi ke localhost/phpmyadmin kemudian silahkan buat database baru dengan nama anggota_master kemudian import database di folder yg ditaruh di htdocs
